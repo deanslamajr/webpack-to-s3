@@ -1,0 +1,19 @@
+{
+  "name": "webpack-to-s3",
+  "version": "1.0.0",
+  "description": "demonstration of webpack build that supports uploading static assets to AWS s3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/deanslamajr/webpack-to-s3.git"
+  },
+  "author": "Dean Slama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deanslamajr/webpack-to-s3/issues"
+  },
+  "homepage": "https://github.com/deanslamajr/webpack-to-s3#readme"
+}
