@@ -44,7 +44,7 @@ module.exports =  {
     new AssetsPlugin(),
     new HtmlWebpackPlugin({
       template: path.join(__dirname, 'src', 'index.ejs'),
-      filename: 'index.ejs',
+      filename: 'index.html',
       inject: 'body'
     })
   ]

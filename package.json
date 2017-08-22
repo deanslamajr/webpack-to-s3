@@ -4,7 +4,11 @@
   "description": "demonstration of webpack build that supports uploading static assets to AWS s3",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "index.js",
+    "build": "webpack",
+    "upload": "node upload.js",
+    "deploy:minor": "npm version minor && npm run build && npm run upload && eb deploy -l `git describe`",
+    "deploy:patch": "npm version patch && npm run build && npm run upload && eb deploy -l `git describe`"
   },
   "repository": {
     "type": "git",
